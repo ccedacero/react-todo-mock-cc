@@ -1,16 +1,6 @@
 {
   "todos": [
     {
-      "id": "1",
-      "title": "Eat",
-      "completed": true
-    },
-    {
-      "id": "2",
-      "title": "Sleep",
-      "completed": false
-    },
-    {
       "id": "3",
       "title": "Listen to Eric talk about how much he loves Fortnite",
       "completed": false
@@ -31,24 +21,69 @@
       "completed": false
     },
     {
-      "id": "7",
-      "title": "Lecture",
-      "completed": false
-    },
-    {
       "id": "8",
       "title": "Code",
-      "completed": true
+      "completed": false
     },
     {
       "id": "9",
       "title": "NOT watch Eric play Fortnite",
-      "completed": true
+      "completed": false
     },
     {
-      "id": "10",
-      "title": "Ignore Eric's request to play Fortnite with him",
-      "completed": true
+      "title": "walk puppies! ",
+      "completed": false,
+      "id": "axd9m4x"
+    },
+    {
+      "title": "walk puppy",
+      "completed": false,
+      "id": "VG9GNvG"
+    },
+    {
+      "title": "buy 100 puppies!",
+      "completed": false,
+      "id": "tdOT5-A"
+    },
+    {
+      "title": "eat with puppies ",
+      "completed": false,
+      "id": "MHTeHgr"
+    },
+    {
+      "title": "abcd1",
+      "completed": false,
+      "id": "FXvu1GB"
+    },
+    {
+      "title": "bowser",
+      "completed": false,
+      "id": "GjKrw3y"
+    },
+    {
+      "title": "buy 1k puppies ",
+      "completed": false,
+      "id": "Yt_e0qd"
+    },
+    {
+      "title": "buy 2k puppies!",
+      "completed": false,
+      "id": "0OT2mx-"
+    },
+    {
+      "title": "abcedwef",
+      "completed": false,
+      "id": "kLhIhGB"
+    },
+    {
+      "title": "rawr!",
+      "completed": false,
+      "id": "JPePBxy"
+    },
+    {
+      "title": "buy 10k puppies! ",
+      "completed": true,
+      "id": "4FanqC2"
     }
   ]
 }

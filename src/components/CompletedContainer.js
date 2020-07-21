@@ -1,14 +1,23 @@
-import React from 'react'
-import ToDoCard from './ToDoCard'
+import React from "react";
+import ToDoCard from "./ToDoCard";
 
 const CompletedContainer = (props) => {
-    return (
-        <div>
-            <h1>Completed Todos</h1>
-            {/* Render ToDo Card for each ToDo */}
-             {/* Which Array method can you use? */}
-        </div>
-    )
-}
+  const renderTodo = () => {
+    return props.todos.map((td) => (
+      <ToDoCard
+        rmTdo={props.rmTdo}
+        td={td}
+        key={td.id}
+        toggleDone={props.toggleDone}
+      />
+    ));
+  };
+  return (
+    <div>
+      <h1>Completed Todos</h1>
+      {renderTodo()}
+    </div>
+  );
+};
 
-export default CompletedContainer
+export default CompletedContainer;
