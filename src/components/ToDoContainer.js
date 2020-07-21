@@ -34,7 +34,7 @@ export default class ToDoContainer extends Component {
   };
 
   updateAdded = (newTd) => {
-    this.setState({ todos: [...this.state.todos, newTd] });
+    this.setState({ todos: [newTd, ...this.state.todos] });
   };
 
   rmTdo = (td) => {

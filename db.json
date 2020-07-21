@@ -1,39 +1,9 @@
 {
   "todos": [
     {
-      "id": "3",
-      "title": "Listen to Eric talk about how much he loves Fortnite",
-      "completed": false
-    },
-    {
-      "id": "4",
-      "title": "Convince Eric there's more to life than Fortnite",
-      "completed": false
-    },
-    {
-      "id": "5",
-      "title": "Convince Eric that there are better games to play",
-      "completed": false
-    },
-    {
-      "id": "6",
-      "title": "Educate Eric that Overwatch is better than Fortnite",
-      "completed": false
-    },
-    {
       "id": "8",
       "title": "Code",
       "completed": false
-    },
-    {
-      "id": "9",
-      "title": "NOT watch Eric play Fortnite",
-      "completed": false
-    },
-    {
-      "title": "walk puppies! ",
-      "completed": false,
-      "id": "axd9m4x"
     },
     {
       "title": "walk puppy",
@@ -41,49 +11,14 @@
       "id": "VG9GNvG"
     },
     {
-      "title": "buy 100 puppies!",
-      "completed": false,
-      "id": "tdOT5-A"
-    },
-    {
-      "title": "eat with puppies ",
-      "completed": false,
-      "id": "MHTeHgr"
-    },
-    {
-      "title": "abcd1",
-      "completed": false,
-      "id": "FXvu1GB"
-    },
-    {
-      "title": "bowser",
-      "completed": false,
-      "id": "GjKrw3y"
-    },
-    {
-      "title": "buy 1k puppies ",
-      "completed": false,
-      "id": "Yt_e0qd"
-    },
-    {
-      "title": "buy 2k puppies!",
-      "completed": false,
-      "id": "0OT2mx-"
-    },
-    {
-      "title": "abcedwef",
-      "completed": false,
-      "id": "kLhIhGB"
-    },
-    {
-      "title": "rawr!",
-      "completed": false,
-      "id": "JPePBxy"
-    },
-    {
-      "title": "buy 10k puppies! ",
+      "title": "Buy puppy!",
       "completed": true,
-      "id": "4FanqC2"
+      "id": "Tcspzk3"
+    },
+    {
+      "title": "Feed puppy!",
+      "completed": false,
+      "id": "rucDrVm"
     }
   ]
 }

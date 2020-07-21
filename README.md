@@ -28,10 +28,10 @@ Ultimately, we want our App to look something like:
 
 **It might help to first draw out the component hierarchy**
 
-* Fetch the data from http://localhost:3000/todos
+<!-- * Fetch the data from http://localhost:3000/todos
 * Render the each todo in the appropriate component
-* Each todo card will have button to change the complete status which will conditionally render based on the location of component.  (Also, if a todo is under the Complete, the button text should say Incomplete and vice-versa.)
-* When the button is clicked, the todo should be rendered in the appropriate component. BONUS: a PATCH request should be sent to http://localhost:3000/todos/:id to change the status of `completed` for the associated todo.
+* Each todo card will have button to change the complete status which will conditionally render based on the location of component.  (Also, if a todo is under the Complete, the button text should say Incomplete and vice-versa.) -->
+<!-- * When the button is clicked, the todo should be rendered in the appropriate component. BONUS: a PATCH request should be sent to http://localhost:3000/todos/:id to change the status of `completed` for the associated todo.
 Don't forget:
 ```
     method: "PATCH",
@@ -40,33 +40,37 @@ Don't forget:
         "Accept": "application/json"
     },
     body: JSON.stringify({})
-```
+``` -->
 
-Here is a gif of what it's supposed to look (Ignore the skull. That's a theme of my browser):
+<!-- Here is a gif of what it's supposed to look (Ignore the skull. That's a theme of my browser): -->
 
 ![Change Complete Gif](https://media.giphy.com/media/hWGBJ0atz0D0GZUEjc/giphy.gif)
 
-* Add a new todo to the collection and have it rendered. BONUS: Make a POST request to http://localhost:3000/todos. 
-Don't forget: 
+<!--
+* Add a new todo to the collection and have it rendered. BONUS: Make a POST request to http://localhost:3000/todos.
+Don't forget:
 ```
     method: "POST",
     headers: {
         "Content-Type": "application/json",
         "Accept": "application/json"
     },
-    body: JSON.stringify({})
+    body: JSON.stringify({}) -->
+
 ```
-* Delete a todo from the collection. BONUS: Make a DELETE request to http://localhost:3000/todos/:id
+<!-- * Delete a todo from the collection. BONUS: Make a DELETE request to http://localhost:3000/todos/:id
 Don't forget:
 ```
+
     method: "DELETE"
+
 ```
 
 Here is a gif of what it's supposed to look:
 
-![Add Delete Todo](https://media.giphy.com/media/hWGBJ0atz0D0GZUEjc/giphy.gif)
+![Add Delete Todo](https://media.giphy.com/media/hWGBJ0atz0D0GZUEjc/giphy.gif) -->
 
-* Incorporate the SearchBarComponent within the Incomplete Component to filter out todos. As you type, the Incomplete todos are dynamically rendered. 
+* Incorporate the SearchBarComponent within the Incomplete Component to filter out todos. As you type, the Incomplete todos are dynamically rendered.
 
 Here is a gif of what it's supposed to look:
 
@@ -84,9 +88,15 @@ Here is how the button should look like (just for style):
 
 (This button should appear if it's not sorted)
 ```
+
 <button className="ui button green">Sort by Title Length</button>
+
 ```
 (This button should appear if it's sorted)
 ```
+
 <button className="ui button purple">Sort Title Normally</button>
+
+```
+
 ```

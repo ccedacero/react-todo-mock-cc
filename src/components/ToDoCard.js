@@ -28,12 +28,11 @@ const ToDoCard = (props) => {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
+      // body: JSON.stringify({
+      //   title: td.title,
+      //   completed: !td.completed,
+      // }),
     };
-    //   body: JSON.stringify({
-    //     title: td.title,
-    //     completed: !td.completed,
-    //   }),
-    // };
     fetch(`http://localhost:3000/todos/${td.id}`, payLoad)
       .then((r) => r.json())
       .then((rmTdo) => {
